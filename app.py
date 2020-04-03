@@ -15,7 +15,7 @@ def homepage():
 
 @app.route('/hello/')
 def hello():
-    return render_template('hello.html')
+    return "Hello World!"
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
